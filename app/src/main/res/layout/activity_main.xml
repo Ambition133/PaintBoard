@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_chooseBackgroudn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="选背景" />
+
+        <Button
+            android:id="@+id/btn_withdraw"
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:text="撤回" />
+
+        <Button
+            android:id="@+id/btn_clearScreen"
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:text="清屏" />
+
+        <Button
+            android:id="@+id/btn_author"
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:text="关于" />
+
+        <Button
+            android:id="@+id/btn_open"
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/open"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/save"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_canvas"
+        android:layout_width="match_parent"
+        android:layout_height="17dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_blue_dark"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_drawLine"
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dircet"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/btn_drawRect"
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dd"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/btn_drawCircle"
+            android:layout_width="52dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/drawcirle"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/btn_handWrite"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pen"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/btn_colorButton"
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/color"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/btn_eraser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/clear"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_blue_dark"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_handAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="线粗" />
+
+        <Button
+            android:id="@+id/btn_handSub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="线细" />
+
+        <Button
+            android:id="@+id/btn_eraserAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="擦增:" />
+
+        <Button
+            android:id="@+id/btn_eraserSub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="擦减:" />
+    </LinearLayout>
+</LinearLayout>
